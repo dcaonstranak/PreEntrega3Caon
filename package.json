@@ -2,7 +2,7 @@
   "name": "preentrega3caon",
   "version": "1.0.0",
   "description": "pre entrega 3",
-  "main": "index.html",
+  "main": "../index.html",
   "author": "Diana",
   "scripts": {
     "dev": "next dev",
