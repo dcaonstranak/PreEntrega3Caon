@@ -431,7 +431,7 @@ p {
 }
 
 .sectiontasaciones {
-  background-color: var(--principal);
+  background-image: radial-gradient(#1da1d6, #013c5e);
   border-radius: 12px;
   padding: 20px;
   display: flex;
