@@ -3,14 +3,6 @@ $secundario: #065b8d;
 $bg-claro: #bfedff;
 $prop-1: rgb(210, 235, 251);
 $prop-2: rgb(193, 214, 226);
-
-:root {
-  --principal: #{$principal};
-  --secundario: #{$secundario};
-  --bg-claro: #{$bg-claro};
-  --prop-1: #{$prop-1};
-  --prop-2: #{$prop-2};
-}
   
   @media only screen and (max-width: 500px) {
     header {
@@ -63,7 +55,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .navbar {
-    background-color: var(--bg-claro);
+    background-color: $bg-claro;
     font-weight: bold;
   }
   
@@ -73,7 +65,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   header {
-    background-color: var(--bg-claro);
+    background-color: $bg-claro;
     background-size: auto;
     display: flex;
     justify-content: space-between;
@@ -105,7 +97,7 @@ $prop-2: rgb(193, 214, 226);
   
     a {
       text-decoration: none;
-      color: var(--principal);
+      color: $principal;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 21px;
       font-weight: bold;
@@ -170,7 +162,7 @@ $prop-2: rgb(193, 214, 226);
   
     a img:hover {
       transform: scale(1.15);
-      background-color: var(--bg-claro);
+      background-color: $bg-claro;
       text-align: center;
       padding: 20px 0;
     }
@@ -182,7 +174,7 @@ $prop-2: rgb(193, 214, 226);
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-    color: var(--principal);
+    color: $principal;
     text-align: center;
   }
   
@@ -192,7 +184,7 @@ $prop-2: rgb(193, 214, 226);
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-    color: var(--principal);
+    color: $principal;
   }
   
   h3 {
@@ -201,7 +193,7 @@ $prop-2: rgb(193, 214, 226);
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-    color: var(--principal);
+    color: $principal;
   }
   
   .h2tasaciones {
@@ -215,7 +207,7 @@ $prop-2: rgb(193, 214, 226);
   
   .h1header {
     text-align: center;
-    color: var(--principal);
+    color: $principal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     font-style: normal;
@@ -227,13 +219,13 @@ $prop-2: rgb(193, 214, 226);
   
   .h1nosotros {
     text-align: left;
-    color: var(--principal);
+    color: $principal;
     font-weight: bold;
   }
   
   .h1contacto,
   .h1prop {
-    color: var(--principal);
+    color: $principal;
     font-weight: bold;
     margin-top: 2%;
   }
@@ -241,7 +233,7 @@ $prop-2: rgb(193, 214, 226);
   .h1prop {
     font-size: 36px;
     font-weight: bold;
-    color: var(--principal);
+    color: $principal;
     text-align: center;
     margin-top: 20px;
   }
@@ -254,7 +246,7 @@ $prop-2: rgb(193, 214, 226);
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-    color: var(--secundario);
+    color: $secundario;
   }
   
   .h2prop {
@@ -272,13 +264,13 @@ $prop-2: rgb(193, 214, 226);
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-    color: var(--secundario);
+    color: $secundario;
   }
   
   .h3prop {
     font-size: 18px;
     font-weight: bold;
-    color: var(--principal);
+    color: $principal;
     margin-top: 10px;
   }
   
@@ -341,7 +333,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .sectionprop1 {
-    background-color: var(--prop-1);
+    background-color: $prop-1;
     display: grid;
     grid-template-areas:
       "p-imagen p-texto";
@@ -350,7 +342,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .sectionprop2 {
-    background-color: var(--prop-2);
+    background-color: $prop-2;
     display: grid;
     grid-template-areas:
       "p-imagen p-texto";
@@ -418,7 +410,7 @@ $prop-2: rgb(193, 214, 226);
   .boton-container input[type="button"] {
     font-size: 18px;
     padding: 10px 20px;
-    background-color: var(--principal);
+    background-color: $principal;
     color: white;
     border: none;
     border-radius: 6px;
@@ -427,7 +419,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .boton-container input[type="button"]:hover {
-    background-color: var(--secundario);
+    background-color: $secundario;
   }
   
   .vertical-center {
@@ -439,13 +431,13 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .botonhome:hover {
-    color: var(--secundario);
+    color: $secundario;
     background-color: white;
   }
   
   .botonhome {
     font-size: 16px;
-    background-color: var(--secundario);
+    background-color: $secundario;
     color: white;
     border: none;
     border-radius: 6px;
@@ -459,7 +451,7 @@ $prop-2: rgb(193, 214, 226);
     font-size: 12px;
     padding: 10px 20px;
     background-color: white;
-    color: var(--secundario);
+    color: $secundario;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 6px;
   }
@@ -564,7 +556,7 @@ $prop-2: rgb(193, 214, 226);
   
   .linea-divisoria {
     width: 3px;
-    background-color: var(--principal);
+    background-color: $principal;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -579,13 +571,13 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .page-link {
-    color: var(--principal);
+    color: $principal;
     font-weight: bold;
   }
   
   .page-item.active .page-link {
-    background-color: var(--principal);
-    border-color: var(--principal);
+    background-color: $principal;
+    border-color: $principal;
     color: white;
   }
   
@@ -623,7 +615,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .c1b input[type="submit"] {
-    background-color: var(--secundario);
+    background-color: $secundario;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -681,7 +673,7 @@ $prop-2: rgb(193, 214, 226);
   }
   
   .sectionnosotros1 {
-    background-color: var(--prop-1);
+    background-color: $prop-1;
     display: grid;
     grid-template-areas:
       "p-imagen p-texto";

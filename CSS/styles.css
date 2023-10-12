@@ -1,11 +1,3 @@
-:root {
-  --principal: #0877a2;
-  --secundario: #065b8d;
-  --bg-claro: #bfedff;
-  --prop-1: rgb(210, 235, 251);
-  --prop-2: rgb(193, 214, 226);
-}
-
 @media only screen and (max-width: 500px) {
   header ul {
     flex-direction: column;
@@ -41,7 +33,7 @@
   }
 }
 .navbar {
-  background-color: var(--bg-claro);
+  background-color: #bfedff;
   font-weight: bold;
 }
 
@@ -51,7 +43,7 @@ nav {
 }
 
 header {
-  background-color: var(--bg-claro);
+  background-color: #bfedff;
   background-size: auto;
   display: flex;
   justify-content: space-between;
@@ -80,7 +72,7 @@ header li {
 }
 header a {
   text-decoration: none;
-  color: var(--principal);
+  color: #0877a2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
   font-weight: bold;
@@ -139,7 +131,7 @@ footer a img {
 }
 footer a img:hover {
   transform: scale(1.15);
-  background-color: var(--bg-claro);
+  background-color: #bfedff;
   text-align: center;
   padding: 20px 0;
 }
@@ -150,7 +142,7 @@ h1 {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: var(--principal);
+  color: #0877a2;
   text-align: center;
 }
 
@@ -160,7 +152,7 @@ h2 {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: var(--principal);
+  color: #0877a2;
 }
 
 h3 {
@@ -169,7 +161,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: var(--principal);
+  color: #0877a2;
 }
 
 .h2tasaciones {
@@ -183,7 +175,7 @@ h3 {
 
 .h1header {
   text-align: center;
-  color: var(--principal);
+  color: #0877a2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   font-style: normal;
@@ -195,13 +187,13 @@ h3 {
 
 .h1nosotros {
   text-align: left;
-  color: var(--principal);
+  color: #0877a2;
   font-weight: bold;
 }
 
 .h1contacto,
 .h1prop {
-  color: var(--principal);
+  color: #0877a2;
   font-weight: bold;
   margin-top: 2%;
 }
@@ -209,7 +201,7 @@ h3 {
 .h1prop {
   font-size: 36px;
   font-weight: bold;
-  color: var(--principal);
+  color: #0877a2;
   text-align: center;
   margin-top: 20px;
 }
@@ -222,7 +214,7 @@ h3 {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: var(--secundario);
+  color: #065b8d;
 }
 
 .h2prop {
@@ -240,13 +232,13 @@ h3 {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: var(--secundario);
+  color: #065b8d;
 }
 
 .h3prop {
   font-size: 18px;
   font-weight: bold;
-  color: var(--principal);
+  color: #0877a2;
   margin-top: 10px;
 }
 
@@ -309,7 +301,7 @@ p {
 }
 
 .sectionprop1 {
-  background-color: var(--prop-1);
+  background-color: rgb(210, 235, 251);
   display: grid;
   grid-template-areas: "p-imagen p-texto";
   margin: 2%;
@@ -317,7 +309,7 @@ p {
 }
 
 .sectionprop2 {
-  background-color: var(--prop-2);
+  background-color: rgb(193, 214, 226);
   display: grid;
   grid-template-areas: "p-imagen p-texto";
   margin: 2%;
@@ -384,7 +376,7 @@ p {
 .boton-container input[type=button] {
   font-size: 18px;
   padding: 10px 20px;
-  background-color: var(--principal);
+  background-color: #0877a2;
   color: white;
   border: none;
   border-radius: 6px;
@@ -393,7 +385,7 @@ p {
 }
 
 .boton-container input[type=button]:hover {
-  background-color: var(--secundario);
+  background-color: #065b8d;
 }
 
 .vertical-center {
@@ -405,13 +397,13 @@ p {
 }
 
 .botonhome:hover {
-  color: var(--secundario);
+  color: #065b8d;
   background-color: white;
 }
 
 .botonhome {
   font-size: 16px;
-  background-color: var(--secundario);
+  background-color: #065b8d;
   color: white;
   border: none;
   border-radius: 6px;
@@ -425,7 +417,7 @@ p {
   font-size: 12px;
   padding: 10px 20px;
   background-color: white;
-  color: var(--secundario);
+  color: #065b8d;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 6px;
 }
@@ -527,7 +519,7 @@ p {
 
 .linea-divisoria {
   width: 3px;
-  background-color: var(--principal);
+  background-color: #0877a2;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -542,13 +534,13 @@ p {
 }
 
 .page-link {
-  color: var(--principal);
+  color: #0877a2;
   font-weight: bold;
 }
 
 .page-item.active .page-link {
-  background-color: var(--principal);
-  border-color: var(--principal);
+  background-color: #0877a2;
+  border-color: #0877a2;
   color: white;
 }
 
@@ -586,7 +578,7 @@ p {
 }
 
 .c1b input[type=submit] {
-  background-color: var(--secundario);
+  background-color: #065b8d;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -644,7 +636,7 @@ p {
 }
 
 .sectionnosotros1 {
-  background-color: var(--prop-1);
+  background-color: rgb(210, 235, 251);
   display: grid;
   grid-template-areas: "p-imagen p-texto";
   margin: 2%;
