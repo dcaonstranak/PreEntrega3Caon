@@ -2,4 +2,6 @@
 
 img_cache
 
-/wireframes
+wireframes/
+
+node_modules
