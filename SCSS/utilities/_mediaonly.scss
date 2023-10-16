@@ -1,0 +1,49 @@
+ @media only screen and (max-width: 500px) {
+    header {
+      ul {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+  
+      .sectionprop1, .sectionprop2 {
+        grid-template-columns: 1fr;
+      }
+  
+      .imgpropiedad {
+        width: 100%;
+        max-width: none;
+      }
+  
+      .sectionnosotros1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+  
+      .imgnosotros {
+        display: none; /* Provisorio porque no queda la img arriba */
+      }
+  
+      .divsectionnosotros {
+        text-align: center;
+        margin: 0;
+      }
+  
+      .botonhome {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 501px) and (max-width: 960px) {
+  }
+  
+  @media only screen and (min-width: 961px) {
+  }
