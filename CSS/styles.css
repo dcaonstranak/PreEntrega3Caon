@@ -400,6 +400,8 @@ p {
 .botonhome:hover {
   color: #065b8d;
   background-color: white;
+  animation: headShake;
+  animation-duration: 2s;
 }
 
 .botonhome {

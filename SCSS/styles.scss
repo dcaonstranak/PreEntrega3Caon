@@ -430,6 +430,8 @@
   .botonhome:hover {
     color: $secundario;
     background-color: white;
+    animation: headShake;
+    animation-duration: 2s;
   }
   
   .botonhome {
