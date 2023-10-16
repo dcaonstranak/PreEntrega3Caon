@@ -138,6 +138,7 @@ footer a img {
   vertical-align: middle;
 }
 footer a img:hover {
+  background-color: #bfedff;
   animation: rotateIn;
   animation-duration: 2s;
 }
