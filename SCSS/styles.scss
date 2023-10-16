@@ -54,6 +54,11 @@
     background-color: $bg-claro;
     font-weight: bold;
   }
+
+  .nav-item :hover {
+    animation: bounce;
+    animation-duration: 2s;
+  }
   
   nav {
     flex-grow: 1;

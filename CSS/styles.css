@@ -37,6 +37,11 @@
   font-weight: bold;
 }
 
+.nav-item :hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+
 nav {
   flex-grow: 1;
   margin-right: auto;
@@ -123,6 +128,8 @@ footer ul {
 footer li {
   margin-right: 10px;
   display: inline;
+  animation: rotateIn;
+  animation-duration: 2s;
 }
 footer a img {
   width: 24px;
@@ -132,9 +139,10 @@ footer a img {
 }
 footer a img:hover {
   transform: scale(1.15);
-  background-color: #bfedff;
   text-align: center;
   padding: 20px 0;
+  animation: rotateIn;
+  animation-duration: 2s;
 }
 
 h1 {
