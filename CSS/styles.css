@@ -138,9 +138,6 @@ footer a img {
   vertical-align: middle;
 }
 footer a img:hover {
-  transform: scale(1.15);
-  text-align: center;
-  padding: 20px 0;
   animation: rotateIn;
   animation-duration: 2s;
 }
