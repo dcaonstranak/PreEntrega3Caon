@@ -1,0 +1,43 @@
+.botonhome:hover {
+    color: $secundario;
+    background-color: white;
+    animation: headShake;
+    animation-duration: 2s;
+  }
+  
+  .botonhome {
+    font-size: 16px;
+    background-color: $secundario;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .boton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .boton-container a {
+    text-decoration: none;
+  }
+  
+  .boton-container input[type="button"] {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: $principal;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .boton-container input[type="button"]:hover {
+    background-color: $secundario;
+  }

@@ -1,0 +1,225 @@
+.navbar {
+    font-weight: bold;
+  }
+
+  .nav-item :hover {
+    font-weight: bold;
+  }
+
+header {
+    background-color: $bg-claro;
+  }
+
+  header { 
+    a {
+      text-decoration: none;
+      color: $principal;
+      font-size: 21px;
+      font-weight: bold;
+    }
+}
+
+.imgbuscador {
+    opacity: 0;
+  }
+
+.texto-encima {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: $principal;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: $principal;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: $principal;
+  }
+  
+  .h2tasaciones {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .h1header {
+    text-align: center;
+    color: $principal;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .h1nosotros {
+    text-align: left;
+    color: $principal;
+    font-weight: bold;
+  }
+  
+  .h1contacto,
+  .h1prop {
+    color: $principal;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+  
+  .h1prop {
+    font-size: 36px;
+    font-weight: bold;
+    color: $principal;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .h2nosotros,
+  .h2prop,
+  .h2contact {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: $secundario;
+  }
+  
+  .h2prop {
+    margin-top: 0;
+  }
+  
+  .h2contact {
+    text-align: center;
+  }
+  
+  .h3nosotros,
+  .h3prop {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: $secundario;
+  }
+  
+  .h3prop {
+    font-size: 18px;
+    font-weight: bold;
+    color: $principal;
+    margin-top: 10px;
+  }
+
+  .ulnosotros {
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  .pnosotros {
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: start;
+  }
+  
+  .ptasaciones {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .ptasaciones::after {
+    content: '\A';
+    white-space: pre;
+    display: block;
+  }
+
+  .liprop {
+    font-size: 14px;
+  }
+
+  .formhome {
+    font-size: 12px;
+    padding: 10px 20px;
+    background-color: white;
+    color: $secundario;
+    border-radius: 6px;
+  }
+
+  .page-link {
+    color: $principal;
+    font-weight: bold;
+  }
+  
+  .page-item.active .page-link {
+    background-color: $principal;
+    border-color: $principal;
+    color: white;
+  }
+
+  .c1b label {
+    font-weight: bold;
+  }
+  
+  .pcontact {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .pcontact2 {
+    font-weight: bold;
+  }
+
+  .sectionprop1, .sectionnosotros1 {
+    background-color: $prop-1;
+  }
+
+  .sectionprop2 {
+    background-color: $prop-2;
+  }
+    
+  .divsectionprop {
+    align-self: center;
+    text-align: left;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .sectiontasaciones {
+    background-image:radial-gradient(#1da1d6, #013c5e);
+    text-align: center;
+  }
+  
+  .text-container {
+    color: white;
+  }
